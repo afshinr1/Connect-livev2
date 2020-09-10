@@ -1,0 +1,72 @@
+.sign-button{
+    padding: 10px;
+}
+.header{ 
+   
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    justify-content: space-between;
+ 
+    object-fit: contain;
+   
+}
+
+.header-div{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.login{
+    
+    display: inherit;
+}
+.login > button{
+    padding: 10px;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.logout{
+    flex: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-name{
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+
+.header-logo{
+    position: sticky;
+    top: 0;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    
+    justify-content: space-between;
+    flex: 0.6;
+    position: sticky;
+}
+.list-item{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 5px;
+    height: 100%;
+    font-family: cursive;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    flex: 0.2;
+}

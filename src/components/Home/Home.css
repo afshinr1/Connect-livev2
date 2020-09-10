@@ -1,0 +1,21 @@
+.app{
+    background-color: lightgray;
+}
+
+
+.home{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.login-apply{
+    text-transform: capitalize;
+    padding: 10px;
+    font-family:sans-serif;
+}
